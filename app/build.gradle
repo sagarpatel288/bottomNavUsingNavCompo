@@ -8,11 +8,10 @@ plugins {
 
 android {
     compileSdkVersion 31
-    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.srdpatel.bottomnavigationtutorial"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -40,6 +39,7 @@ android {
         /*freeCompilerArgs += "-Xopt-in=org.mylibrary.OptInAnnotation"*/
         freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
     }
+    namespace 'com.srdpatel.bottomnavigationtutorial'
 }
 
 dependencies {
